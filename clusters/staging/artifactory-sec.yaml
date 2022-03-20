@@ -1,0 +1,8 @@
+apiVersion: v1
+data:
+  .dockerconfigjson: Zm9vYmFyCg==
+kind: Secret
+metadata:
+  name: artifactory-sec
+  namespace: default
+type: kubernetes.io/dockerconfigjson
